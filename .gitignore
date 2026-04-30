@@ -33,7 +33,13 @@ Thumbs.db
 
 # Data working files
 *.tmp
+*.pdf
 data/heme_drugs.json
+data/heme_drugs_test.json
+data/plugin_test_*.json
+data/new_drug_template.json
+data/nhi_pdfs/
+data/*_check.json
 data/validate.txt
 
 # Keep audit & therapy_line_check for reference

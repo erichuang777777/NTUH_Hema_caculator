@@ -1,0 +1,20 @@
+=== Brentuximab vedotin (line=2) ===
+INDICATION: 限用於成人患者： | 1.何杰金氏淋巴瘤(HL)：（111/2/1) | (1)與doxorubicin、vinblastine和dacarbazine併用適用於先前未曾接受治療，且IPS (International Prognostic Score)為4-7 分的CD30+第IV期何杰金氏淋巴瘤(HL)成人病人。（111/2/1） | 2.全身性退行分化型大細胞淋巴瘤(systemic anaplastic large cell lymphoma；sALCL)：（111/2/1) | (1)與cyclophosphamide、doxorubicin和prednisone併用適用於先前未曾接受治療且為ALK陰性的全身性退行分化型大細胞淋巴瘤(systemic anaplastic large cell lymphoma；sALCL)成人病人。（111/2/1） | 3.CD30+皮膚T細
+CONDITIONS: (1)與doxorubicin、vinblastine和dacarbazine併用適用於先前未曾接受治療，且IPS (International Prognostic Score)為4-7 分的CD30+第IV期何杰金氏淋巴瘤(HL)成人病人。（111/2/1） | (2)CD30+何杰金氏淋巴瘤(HL)病患接受ASCT後仍具有高復發風險之病患：需先前未曾使用過本品，並於ASCT前具有下列任一危險因子者：(109/2/1) | (3)治療復發或頑固型CD30+何杰金氏淋巴瘤(HL)： | (4)須經事前審查核准後使用： | Ⅱ.前述(2)之病患：每次申請療程以4個療程為限，再申請應檢附疾病無惡化之評估資料，若病情惡化即須停止使用。曾依本項核准使用之病患，若之後疾病惡化或復發後將不再給付本藥品。(109/2/1、111/2/1) | Ⅲ.前述(3)之病患：每次申請療程以4個療程為限，再申請應
+
+=== Carfilzomib (line=1) ===
+INDICATION: 1.與dexamethasone合併使用於先前曾接受含bortezomib及lenalidomide兩種治療後無法耐受或惡化之病患，且須具有良好日常體能狀態(ECOG < 2)及足夠腎功能(CrCl ≥50 ml/minute)的多發性骨髓瘤成年患者。 | 2.與isatuximab/dexamethasone併用，治療先前曾接受至少一種含bortezomib 或 lenalidomide 之療法治療失敗的多發性骨髓瘤成人患者，且須具有良好日常體能狀態 (ECOG < 2) 者。（113/4/1） | 3. 需經事前審查核准後使用：（109/2/1、112/4/1） | 4. 不得與其他蛋白酶體抑制劑(proteasome inhibitor)或免疫調節劑(immunomodulatory drugs) 或daratumumab併用。（109/2/1、112/4/1、113/4/1） | 
+CONDITIONS: 3. 需經事前審查核准後使用：（109/2/1、112/4/1） | (1)初次申請以4個療程(每療程為4週)為限，且需同時符合下列Ⅰ.與Ⅱ.的條件：（109/2/1、112/4/1） | (2)再次申請時必須確定paraprotein (M-protein)未上升(即表示對藥物有反應或為穩定狀態);或對部分non-secretory type MM病人以骨髓檢查plasma cell為療效依據，證明為對藥物有反應或為穩定狀態，方可繼續使用。續用時的申請每次以3個療程為限。 | (3)每人終生以10個療程為上限。 （109/2/1、112/4/1） | 5. 112年3月31日以前已核定用藥之病人，得經事前審查核准後，使用至總療程上限（即終生10個療程）或使用期間發生疾病惡化為止。（112/4/1）
+
+=== Elotuzumab (line=1) ===
+INDICATION: 1.與pomalidomide及dexamethasone併用，治療之前曾接受過至少兩種療法（包括lenalidomide和蛋白酶體抑制劑）的多發性骨髓瘤成年病人，且完全符合下列條件： | 2.需經事前審查核准後使用： | 3.不得與蛋白酶體抑制劑(bortezomib、carfilzomib)或lenalidomide併用。
+CONDITIONS: (1)確認完成前次治療時或結束治療後六十天內發生疾病惡化(disease progression)。 | (2)須具有良好日常體能狀態(ECOG < 2)。 | 2.需經事前審查核准後使用： | (1)初次申請以3個療程為限，且需同時符合下列Ⅰ.與Ⅱ.的條件： | (2)再次申請時必須確定paraprotein (M-protein)未上升(即表示對藥物有反應或為穩定狀態);或對部分non-secretory type 多發性骨髓瘤病人以骨髓檢查plasma cell為療效依據，證明為對藥物有反應或為穩定狀態，方可繼續使用。續用時的申請以3個療程為限。疾病若發生惡化情形應即停止使用。 | (3)每人以10個療程為上限。
+
+=== Pomalidomide (line=1) ===
+INDICATION: 1.與dexamethasone合併使用，核准用於多發性骨髓瘤病人，且先前接受過含lenalidomide和bortezomib在內的至少兩種療法，且確認完成前次治療時或結束治療後六十天內發生疾病惡化(disease progression)。 | 2.限與elotuzumab及dexamethasone併用，治療之前曾接受過至少兩種療法（包括lenalidomide和蛋白酶體抑制劑）的多發性骨髓瘤成年病人。（113/9/1） | 3.需經事前審查核准後使用：（107/1/1、112/4/1） | 4. 每人終生以10個療程為上限，Pomado則每人以6個療程為上限。（107/1/1、112/4/1、113/9/1） | 5.不得與其他蛋白酶體抑制劑(proteasome inhibitor)或免疫調節劑(immunomodulatory drugs)併用。 (109/2/1、112/4/
+CONDITIONS: 3.需經事前審查核准後使用：（107/1/1、112/4/1） | (1)初次申請以3個療程為限，且需同時符合下列Ⅰ.與Ⅱ.的條件：（112/4/1） | (2)再次申請時必須確定paraprotein (M-protein)未上升(即表示對藥物有反應或為穩定狀態);或對部分non-secretory type 多發性骨髓瘤病人以骨髓檢查plasma cell為療效依據，證明為對藥物有反應或為穩定狀態，方可繼續使用。續用時的申請以3個療程為限。疾病若發生惡化情形應即停止使用。（107/1/1、112/4/1） | 4. 每人終生以10個療程為上限，Pomado則每人以6個療程為上限。（107/1/1、112/4/1、113/9/1） | 6.112年3月31日以前已核定用藥之病人，得經事前審查核准後，使用至總療程上限（即終生10個療程，Pomado則每人6個療程）或使用期間發生疾病惡化為止
+
+=== Rituximab (line=2) ===
+INDICATION: 1.用於類風濕性關節炎之成人治療部分：(109/11/1） | Ⅰ.限用於曾經接受抗腫瘤壞死因子 (如etanercept、adalimumab或golimumab等) 治療，但未達療效，或無法耐受的成人活動性類風濕性關節炎患者。（101/7/1） | ◎附表二十三：全民健康保險使用rituximab用於類風濕性關節炎申請表 | 2.Rituximab注射劑與葡萄糖皮質素(glucocorticoids)併用，用於治療中度至重度尋常性天疱瘡(PV)的成人病人部分(限符合藥品許可證登載適應症之藥品)：(109/11/1) | 1.出生時，懷孕週數未滿33週之早產兒，最多施打六劑。懷孕週數滿33週但未滿36週之早產兒，最多施打三劑。(106/4/1、111/2/1、111/4/1、114/6/1) | 2.併有慢性肺疾病(Chronic Lung Disease；CLD)之早產兒(35週以下)
+CONDITIONS: (1)給付條件： | Ⅳ.每次療程為靜脈注射500毫克～1,000毫克，兩週後相同劑量再注射一次，共注射兩次。 | (2)限內科專科醫師且具有風濕或免疫專科醫師證書者處方。 | (3)需經事前審查核准後使用： | Ⅲ.每次申請時應檢附治療前後之相關照片。（99/2/1） | (4)需排除或停止使用rituximab治療之情形如下： | (1)限皮膚科、或內科專科醫師且具有風濕或免疫專科醫師證書者處方。 | (2)限成人申請，且需經事前審查核准後使用。又申報時應檢附相關病例資料。 | (3)給付條件： | (4)起始治療:1000mg rituximab以靜脈輸注投予，兩週後投予第二劑1000 mg rituximab靜脈輸注，同時依據病人嚴重度併用逐漸減量之葡萄糖皮質素(glucocorticoids)療程。
+

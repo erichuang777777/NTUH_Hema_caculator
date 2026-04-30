@@ -1,0 +1,43 @@
+=== 資料缺漏警告藥品 ===
+  id=1536 Dexamethasone (Ozurdex)
+  id=1537 Doxorubicin (Lipo-Dox)
+  id=1550 Oxaliplatin (None)
+  id=1555 Rituximab (Mabthera)
+  id=1558 Thalidomide (Thado)
+
+=== 治療線來源摘要 ===
+  健保規定: 23 種
+  NCCN: 5 種
+  待確認: 2 種
+
+=== 每藥治療線與來源 ===
+  Acalabrutinib             L2 健保規定
+  Azacitidine               L1 健保規定
+  Bendamustine              L1 健保規定
+  Bortezomib                L1 健保規定
+  Bosutinib                 L1 健保規定
+  Brentuximab vedotin       L1 健保規定
+  Carfilzomib               L2 健保規定
+  Cyclophosphamide          L1 NCCN
+  Cytarabine                L1 健保規定
+  Dasatinib                 L1 健保規定
+  Decitabine                L1 健保規定
+  Dexamethasone             L1 NCCN
+  Doxorubicin               L1 NCCN
+  Elotuzumab                L3 健保規定
+  Fludarabine               L1 健保規定
+  Gilteritinib              L2 健保規定
+  Ibrutinib                 L2 健保規定
+  Imatinib                  L1 健保規定
+  Lenalidomide              L1 健保規定
+  Midostaurin               L1 健保規定
+  Nilotinib                 L1 健保規定
+  Obinutuzumab              L2 健保規定
+  Oxaliplatin               L1 NCCN
+  Pomalidomide              L3 健保規定
+  Ponatinib                 L3 健保規定
+  Rituximab                 L2 待確認
+  Thalidomide               L2 待確認
+  Venetoclax                L1 健保規定
+  Vinblastine               L1 NCCN
+  Zanubrutinib              L2 健保規定

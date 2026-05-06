@@ -1,6 +1,26 @@
 from __future__ import annotations
 
+import re
+
 from specialties.heme.review_support import apply_heme_review_support
+
+
+def _apply_nhi_price_fallback(d: dict) -> None:
+    """When the NHI open-data API returns 0.00, fall back to the NTUH-page NHI price text."""
+    if (d.get("nhi_price") or 0) != 0:
+        return
+    text = (d.get("ntuh_open_data") or {}).get("selected_nhi_price_text", "") or ""
+    m = re.match(r"(\d+)", text.strip())
+    if not m:
+        return
+    price = float(m.group(1))
+    if price <= 0:
+        return
+    d["nhi_price"] = price
+    d["nhi_price_source"] = "ntuh_fallback"
+    for f in d.get("formulations", []):
+        if f.get("is_primary") and (f.get("nhi_price") or 0) == 0:
+            f["nhi_price"] = price
 
 
 def apply_heme_rules(drugs: list[dict]) -> list[dict]:
@@ -142,6 +162,7 @@ def apply_heme_rules(drugs: list[dict]) -> list[dict]:
         if "therapy_line_source" not in d:
             d["therapy_line_source"] = "健保規定"
 
+        _apply_nhi_price_fallback(d)
         apply_heme_review_support(d)
 
     return drugs

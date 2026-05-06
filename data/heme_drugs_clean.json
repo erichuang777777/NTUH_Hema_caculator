@@ -12516,5 +12516,675 @@
       "requires_confirmation": true,
       "last_inferred_at": "2026-04-30T11:57:24"
     }
+  },
+  {
+    "id": 1565,
+    "generic_name": "Ruxolitinib",
+    "trade_names": "Jakavi",
+    "specialty_id": "oncology_heme",
+    "indication": "1.骨髓纖維化(MF)：原發性骨髓纖維化(PMF)、真性紅血球增多症後骨髓纖維化(post-PV MF)或原發性血小板增多症後骨髓纖維化(post-ET MF)。 | 2.真性紅血球增多症(PV)：對hydroxycarbamide無效或無法耐受之成人病人。 | 3.造血幹細胞移植後急性或慢性移植物抗宿主病(GvHD)。(113/10/1)",
+    "clinical_tags": {
+      "disease": [
+        "MF",
+        "PV",
+        "MPN"
+      ],
+      "phase": [
+        "initial",
+        "relapsed"
+      ],
+      "jak": true
+    },
+    "stage": "",
+    "therapy_line": 1,
+    "prior_auth": true,
+    "conditions": "1.需經事前審查核准後使用，每3個月需再次申請。 | 2.MF病人：需具有中高風險(intermediate-2 or high risk)之動態國際預後評分系統(DIPSS)分數，或有症狀性脾腫大。每日最大劑量50mg。 | 3.PV病人：需曾接受hydroxycarbamide治療後無效或無法耐受。每日最大劑量50mg。 | 4.GvHD病人：依類固醇治療效果決定適用性，每日最大劑量20mg BID。",
+    "nhi_price": 302.0,
+    "price_unit": "5mg/tab",
+    "dosage_info": "{\"type\": \"oral\", \"dose_fixed\": 20, \"unit\": \"mg\", \"freq\": \"bid\", \"note\": \"MF: 20mg BID（起始，依耐受性調整）\"}",
+    "therapy_line_source": "健保規定"
+  },
+  {
+    "id": 1566,
+    "generic_name": "Fedratinib",
+    "trade_names": "Inrebic",
+    "specialty_id": "oncology_heme",
+    "indication": "用於具有中高風險(intermediate-2 or high risk)原發性骨髓纖維化(PMF)、真性紅血球增多症後骨髓纖維化(post-PV MF)或原發性血小板增多症後骨髓纖維化(post-ET MF)之成人病人。(114/4/1)",
+    "clinical_tags": {
+      "disease": [
+        "MF",
+        "MPN"
+      ],
+      "phase": [
+        "initial",
+        "relapsed"
+      ],
+      "jak": true
+    },
+    "stage": "",
+    "therapy_line": 1,
+    "prior_auth": true,
+    "conditions": "1.需經事前審查核准後使用，每3個月需再次申請。 | 2.需具有中高風險(intermediate-2 or high risk)之動態國際預後評分系統(DIPSS)分數。 | 3.每日劑量400mg。 | 4.治療前需確認thiamine(維生素B1)濃度正常。",
+    "nhi_price": 4558.0,
+    "price_unit": "100mg/cap",
+    "dosage_info": "{\"type\": \"oral\", \"dose_fixed\": 400, \"unit\": \"mg\", \"freq\": \"daily\", \"note\": \"400mg/日（4粒）\"}",
+    "therapy_line_source": "健保規定"
+  },
+  {
+    "id": 1567,
+    "generic_name": "Momelotinib",
+    "trade_names": "Ojjaara",
+    "specialty_id": "oncology_heme",
+    "indication": "用於有貧血症狀之具有中高風險原發性骨髓纖維化(PMF)、真性紅血球增多症後骨髓纖維化(post-PV MF)或原發性血小板增多症後骨髓纖維化(post-ET MF)成人病人。",
+    "clinical_tags": {
+      "disease": [
+        "MF",
+        "MPN"
+      ],
+      "phase": [
+        "initial",
+        "relapsed"
+      ],
+      "jak": true
+    },
+    "stage": "",
+    "therapy_line": 1,
+    "prior_auth": true,
+    "conditions": "健保給付規定待公告，目前建議依照NCCN指引使用。每日劑量200mg。具有JAK inhibitor治療後仍有貧血者為特別適應族群。",
+    "nhi_price": null,
+    "price_unit": "150mg/tab",
+    "dosage_info": "{\"type\": \"oral\", \"dose_fixed\": 200, \"unit\": \"mg\", \"freq\": \"daily\", \"note\": \"200mg/日（健保給付待確認）\"}",
+    "therapy_line_source": "待確認",
+    "data_note": "健保給付規定尚未公告，價格及給付條件待確認。"
+  },
+  {
+    "id": 1568,
+    "generic_name": "Anagrelide",
+    "trade_names": "Agrylin",
+    "specialty_id": "oncology_heme",
+    "indication": "用於原發性血小板增多症(Essential Thrombocythemia, ET)病人之血小板降低治療，尤其適用於高危險族群或對hydroxyurea不耐受者。",
+    "clinical_tags": {
+      "disease": [
+        "ET",
+        "MPN"
+      ],
+      "phase": [
+        "initial",
+        "maintenance"
+      ]
+    },
+    "stage": "",
+    "therapy_line": 1,
+    "prior_auth": false,
+    "conditions": "依病人血小板數及症狀調整劑量，起始0.5mg BID，最大10mg/日。",
+    "nhi_price": 75.0,
+    "price_unit": "0.5mg/cap",
+    "dosage_info": "{\"type\": \"oral\", \"dose_fixed\": 1, \"unit\": \"mg\", \"freq\": \"bid\", \"note\": \"起始0.5mg BID，依血小板數調整\"}",
+    "therapy_line_source": "健保規定"
+  },
+  {
+    "id": 1569,
+    "generic_name": "Ropeginterferon alfa-2b",
+    "trade_names": "Besremi",
+    "specialty_id": "oncology_heme",
+    "indication": "用於真性紅血球增多症(PV)成人病人，包括先前未曾接受過治療及曾接受hydroxycarbamide治療之病人。(113/1/1)",
+    "clinical_tags": {
+      "disease": [
+        "PV",
+        "MPN"
+      ],
+      "phase": [
+        "initial",
+        "maintenance"
+      ]
+    },
+    "stage": "",
+    "therapy_line": 1,
+    "prior_auth": true,
+    "conditions": "1.需經事前審查核准後使用，每3個月需再次申請。 | 2.需符合PV診斷標準（WHO criteria）。 | 3.起始劑量100mcg每2週一次，依耐受性逐漸增加至最大劑量500mcg每2週一次。 | 4.每次申請以3個月療程為限。",
+    "nhi_price": 22800.0,
+    "price_unit": "250mcg/0.5mL",
+    "dosage_info": "{\"type\": \"sc\", \"dose_fixed\": 100, \"unit\": \"mcg\", \"freq\": \"q2w\", \"note\": \"100mcg起始，每2週一次皮下注射，逐漸增量\"}",
+    "therapy_line_source": "健保規定"
+  },
+  {
+    "id": 1570,
+    "generic_name": "Gemtuzumab ozogamicin",
+    "trade_names": "Mylotarg",
+    "specialty_id": "oncology_heme",
+    "indication": "用於CD33陽性之急性骨髓性白血病(AML)成人病人：1.與daunorubicin及cytarabine合併作為初始治療。 | 2.60歲以上不適合強化化療之初診斷AML病人之單一治療。 | 3.復發或難治性CD33陽性AML之單一治療。",
+    "clinical_tags": {
+      "disease": [
+        "AML"
+      ],
+      "phase": [
+        "initial",
+        "relapsed"
+      ],
+      "cd33": true
+    },
+    "stage": "",
+    "therapy_line": 1,
+    "prior_auth": true,
+    "conditions": "需經事前審查核准後使用。使用前需確認CD33陽性表現。APL(t(15;17))病人禁忌使用。注意肝臟毒性(VOD/SOS)。",
+    "nhi_price": 0.0,
+    "price_unit": "5mg/vial",
+    "dosage_info": "{\"type\": \"iv\", \"dose_per_bsa\": 3, \"unit\": \"mg/m2\", \"freq\": \"q4w\", \"note\": \"3mg/m2 Day1,4,7（誘導期）或單次3mg/m2\"}",
+    "therapy_line_source": "健保規定",
+    "data_note": "健保價格待確認，請查詢最新健保給付規定。"
+  },
+  {
+    "id": 1571,
+    "generic_name": "Quizartinib",
+    "trade_names": "Vanflyta",
+    "specialty_id": "oncology_heme",
+    "indication": "與標準誘導化療(7+3方案)及鞏固化療合併使用，並在化療後作為維持治療，用於FLT3-ITD突變陽性之新診斷急性骨髓性白血病(AML)成人病人。(114/10/1)",
+    "clinical_tags": {
+      "disease": [
+        "AML"
+      ],
+      "phase": [
+        "initial",
+        "maintenance"
+      ],
+      "flt3": true
+    },
+    "stage": "",
+    "therapy_line": 1,
+    "prior_auth": true,
+    "conditions": "1.需經事前審查核准後使用。 | 2.需具有FLT3-ITD突變（以核准之診斷方法確認），且需符合全民健康保險藥品給付規定之通則十二。 | 3.本藥品與midostaurin僅得擇一使用，除因耐受性不良，不得互換。(114/10/1) | 4.誘導期：35.4mg/日；鞏固期：35.4mg/日；維持期：最多12個療程。",
+    "nhi_price": 11526.0,
+    "price_unit": "26.5mg/tab",
+    "dosage_info": "{\"type\": \"oral\", \"dose_fixed\": 35.4, \"unit\": \"mg\", \"freq\": \"daily\", \"note\": \"35.4mg/日（1.5錠）搭配化療，維持期最多12個月\"}",
+    "therapy_line_source": "健保規定"
+  },
+  {
+    "id": 1572,
+    "generic_name": "Azacitidine (oral)",
+    "trade_names": "Onureg / CC-486",
+    "specialty_id": "oncology_heme",
+    "indication": "用於不適合接受造血幹細胞移植(HSCT)之急性骨髓性白血病(AML)成人病人，在誘導治療後達到完全緩解(CR)或完全緩解但血球計數未完全恢復(CRi)後，作為維持治療。(114/8/1)",
+    "clinical_tags": {
+      "disease": [
+        "AML"
+      ],
+      "phase": [
+        "maintenance"
+      ]
+    },
+    "stage": "",
+    "therapy_line": 1,
+    "prior_auth": true,
+    "conditions": "1.用於不適合接受造血幹細胞移植之AML成人病人，作為維持治療，且須同時符合下列條件。 | 2.需經事前審查核准後使用，初次申請為3個療程，需檢附染色體檢測結果報告；每3個療程需再次申請，可治療至疾病復發或無法耐受藥物毒性為止。 | 3.每人以24個療程為上限。 | 4.不得與midostaurin、venetoclax及gilteritinib等標靶藥品併用。 | 5.55歲以上具中度或高度不良風險染色體核型變化之AML病人，在誘導治療後（不論是否接受鞏固治療），首次達到CR或CRi。",
+    "nhi_price": 3900.0,
+    "price_unit": "200mg/tab",
+    "dosage_info": "{\"type\": \"oral\", \"dose_fixed\": 300, \"unit\": \"mg\", \"freq\": \"daily\", \"schedule\": \"14/28\", \"note\": \"300mg/日，連續14天，每28天一週期\"}",
+    "therapy_line_source": "健保規定"
+  },
+  {
+    "id": 1573,
+    "generic_name": "Letemovir",
+    "trade_names": "Prevymis",
+    "specialty_id": "oncology_heme",
+    "indication": "用於CMV血清陽性之成人異體造血幹細胞移植(allo-HSCT)接受者，預防CMV感染及疾病。(112/1/1)",
+    "clinical_tags": {
+      "disease": [
+        "HSCT"
+      ],
+      "phase": [
+        "maintenance"
+      ]
+    },
+    "stage": "",
+    "therapy_line": 1,
+    "prior_auth": true,
+    "conditions": "1.限用於CMV血清陽性之異體造血幹細胞移植受者。 | 2.移植後開始使用，最長使用至移植後100天。 | 3.每日480mg（口服）；若與cyclosporin合併使用，每日240mg。 | 4.需經事前審查核准後使用。",
+    "nhi_price": 1843.0,
+    "price_unit": "240mg/tab",
+    "dosage_info": "{\"type\": \"oral\", \"dose_fixed\": 480, \"unit\": \"mg\", \"freq\": \"daily\", \"note\": \"480mg/日（無cyclosporin）或240mg/日（有cyclosporin）\"}",
+    "therapy_line_source": "健保規定"
+  },
+  {
+    "id": 1574,
+    "generic_name": "Maribavir",
+    "trade_names": "Livtencity",
+    "specialty_id": "oncology_heme",
+    "indication": "用於對現有治療（包括ganciclovir、valganciclovir、cidofovir或foscarnet）無效或無法耐受的移植後難治性CMV感染或疾病之成人病人。",
+    "clinical_tags": {
+      "disease": [
+        "HSCT"
+      ],
+      "phase": [
+        "relapsed"
+      ]
+    },
+    "stage": "",
+    "therapy_line": 2,
+    "prior_auth": true,
+    "conditions": "需對現有抗CMV治療無效或無法耐受。每日400mg BID，療程8週。健保給付規定待確認。",
+    "nhi_price": null,
+    "price_unit": "200mg/tab",
+    "dosage_info": "{\"type\": \"oral\", \"dose_fixed\": 400, \"unit\": \"mg\", \"freq\": \"bid\", \"note\": \"400mg BID，療程8週（健保給付待確認）\"}",
+    "therapy_line_source": "待確認",
+    "data_note": "健保給付規定尚未公告，價格待確認。"
+  },
+  {
+    "id": 1575,
+    "generic_name": "Immune globulin (IVIG)",
+    "trade_names": "多種廠牌",
+    "specialty_id": "oncology_heme",
+    "indication": "用於造血幹細胞移植後(HSCT)低免疫球蛋白血症(IgG<400mg/dL)之替代治療，及移植後早期感染預防。亦用於ITP、AA等免疫性血液疾病。",
+    "clinical_tags": {
+      "disease": [
+        "HSCT",
+        "ITP",
+        "AA"
+      ],
+      "phase": [
+        "initial",
+        "maintenance"
+      ]
+    },
+    "stage": "",
+    "therapy_line": 1,
+    "prior_auth": true,
+    "conditions": "1.移植後IgG<400mg/dL時給予替代治療，每月監測IgG濃度。 | 2.ITP急性期：1g/kg/日×2天或0.4g/kg/日×5天。 | 3.AA：依病情需要，需事前審查。",
+    "nhi_price": 1380.0,
+    "price_unit": "2.5g/50mL vial",
+    "dosage_info": "{\"type\": \"iv\", \"dose_per_kg\": 0.4, \"unit\": \"g/kg\", \"freq\": \"monthly\", \"note\": \"0.4g/kg/日×5天（ITP）或依IgG濃度調整（HSCT）\"}",
+    "therapy_line_source": "健保規定"
+  },
+  {
+    "id": 1576,
+    "generic_name": "Glofitamab",
+    "trade_names": "Columvi",
+    "specialty_id": "oncology_heme",
+    "indication": "用於先前曾接受至少兩線全身治療之復發性或難治性瀰漫性大B細胞淋巴瘤(DLBCL)成人病人。須以obinutuzumab預先給藥。(114/8/1)",
+    "clinical_tags": {
+      "disease": [
+        "lymphoma"
+      ],
+      "phase": [
+        "relapsed"
+      ],
+      "cd20": true
+    },
+    "stage": "",
+    "therapy_line": 3,
+    "prior_auth": true,
+    "conditions": "1.需以obinutuzumab 1000mg作為前置治療，並於glofitamab首次治療前7天給予。 | 2.需先前曾接受至少兩線全身治療（包括至少一種anti-CD20 monoclonal antibody及anthracycline含鉑化療）。 | 3.需經事前審查核准後使用，每3個月需再次申請。 | 4.最多給付12個療程。 | 5.需同時符合obinutuzumab之給付規定。",
+    "nhi_price": 115000.0,
+    "price_unit": "30mg/vial",
+    "dosage_info": "{\"type\": \"iv\", \"dose_fixed\": 30, \"unit\": \"mg\", \"freq\": \"q3w\", \"cycles\": 12, \"note\": \"第一劑2.5mg→第二劑10mg→之後30mg，每3週（預防CRS）\"}",
+    "therapy_line_source": "健保規定"
+  },
+  {
+    "id": 1577,
+    "generic_name": "Epcoritamab",
+    "trade_names": "Epkinly",
+    "specialty_id": "oncology_heme",
+    "indication": "用於先前曾接受至少兩線全身治療之復發性或難治性瀰漫性大B細胞淋巴瘤(DLBCL)及高惡性度B細胞淋巴瘤成人病人。",
+    "clinical_tags": {
+      "disease": [
+        "lymphoma"
+      ],
+      "phase": [
+        "relapsed"
+      ],
+      "cd20": true
+    },
+    "stage": "",
+    "therapy_line": 3,
+    "prior_auth": true,
+    "conditions": "需先前曾接受至少兩線全身治療。皮下注射，需逐步增量以降低CRS風險。健保給付規定待確認。",
+    "nhi_price": null,
+    "price_unit": "48mg/0.8mL",
+    "dosage_info": "{\"type\": \"sc\", \"dose_fixed\": 48, \"unit\": \"mg\", \"freq\": \"q4w\", \"note\": \"逐步增量（0.16mg→0.8mg→48mg），每週後改每4週（健保待確認）\"}",
+    "therapy_line_source": "待確認",
+    "data_note": "健保給付規定尚未公告，價格待確認。"
+  },
+  {
+    "id": 1578,
+    "generic_name": "Tisagenlecleucel",
+    "trade_names": "Kymriah",
+    "specialty_id": "oncology_heme",
+    "indication": "1.用於25歲以下（含）難治性或第二次以上復發之B細胞急性淋巴性白血病(ALL)。 | 2.用於先前曾接受至少兩線全身治療之復發性或難治性瀰漫性大B細胞淋巴瘤(DLBCL)或濾泡性淋巴瘤(FL)成人病人。",
+    "clinical_tags": {
+      "disease": [
+        "ALL",
+        "lymphoma"
+      ],
+      "phase": [
+        "relapsed"
+      ]
+    },
+    "stage": "",
+    "therapy_line": 3,
+    "prior_auth": true,
+    "conditions": "1.CAR-T細胞療法，一次性治療。 | 2.需於具CAR-T治療能力之醫療機構施行。 | 3.健保特殊給付規定，需個別申請核准。 | 4.使用前需進行白血球分離(leukapheresis)。",
+    "nhi_price": null,
+    "price_unit": "one-time/patient",
+    "dosage_info": "{\"type\": \"iv\", \"dose_fixed\": 1, \"unit\": \"infusion\", \"freq\": \"once\", \"note\": \"CAR-T一次性輸注，劑量依體重調整（健保特殊規定）\"}",
+    "therapy_line_source": "待確認",
+    "data_note": "CAR-T療法，費用極高，需特殊申請，健保給付規定待確認。"
+  },
+  {
+    "id": 1579,
+    "generic_name": "Tafasitamab",
+    "trade_names": "Monjuvi",
+    "specialty_id": "oncology_heme",
+    "indication": "與lenalidomide合併使用於經一線全身治療含rituximab治療復發型，不適合接受造血幹細胞移植之瀰漫性大型B細胞淋巴瘤(DLBCL)成人病人。(114/10/1)",
+    "clinical_tags": {
+      "disease": [
+        "lymphoma"
+      ],
+      "phase": [
+        "relapsed"
+      ],
+      "cd19": true
+    },
+    "stage": "",
+    "therapy_line": 2,
+    "prior_auth": true,
+    "conditions": "1.需與lenalidomide合併使用（符合lenalidomide給付規定）。 | 2.需先前曾接受一線含rituximab之全身治療後復發。 | 3.不適合自體造血幹細胞移植。 | 4.需經事前審查核准後使用。 | 5.每人至多給付12個療程。(115/3/1)",
+    "nhi_price": 59000.0,
+    "price_unit": "200mg/vial",
+    "dosage_info": "{\"type\": \"iv\", \"dose_per_kg\": 12, \"unit\": \"mg/kg\", \"freq\": \"q4w\", \"note\": \"12mg/kg，第一週期每週×3，之後每4週（200mg/vial）\"}",
+    "therapy_line_source": "健保規定"
+  },
+  {
+    "id": 1580,
+    "generic_name": "Polatuzumab vedotin",
+    "trade_names": "Polivy",
+    "specialty_id": "oncology_heme",
+    "indication": "1.與bendamustine及rituximab (BR)合併，用於第三線治療復發型(relapsed)或難治型(refractory)且未曾接受及不適合接受造血幹細胞移植之瀰漫性大型B細胞淋巴瘤（DLBCL）成年病人。(113/2/1) | 2.與rituximab、cyclophosphamide、doxorubicin及prednisone合併，作為先前未曾接受治療之中高度惡性DLBCL成人病人之第一線治療。(114/8/1)",
+    "clinical_tags": {
+      "disease": [
+        "lymphoma"
+      ],
+      "phase": [
+        "initial",
+        "relapsed"
+      ],
+      "cd79b": true
+    },
+    "stage": "",
+    "therapy_line": 1,
+    "prior_auth": true,
+    "conditions": "1.限最多6個療程（Pola-BR方案）。 | 2.需符合bendamustine之給付規定（第三線用法）。 | 3.第一線使用：需與rituximab、cyclophosphamide、doxorubicin及prednisone合併使用。 | 4.需經事前審查核准後使用，每次申請最多3個療程，最多給付6個療程。",
+    "nhi_price": 170000.0,
+    "price_unit": "140mg/vial",
+    "dosage_info": "{\"type\": \"iv\", \"dose_per_kg\": 1.8, \"unit\": \"mg/kg\", \"freq\": \"q3w\", \"cycles\": 6, \"note\": \"1.8mg/kg 每3週（140mg/vial），共6個療程\"}",
+    "therapy_line_source": "健保規定"
+  },
+  {
+    "id": 1581,
+    "generic_name": "Eltrombopag",
+    "trade_names": "Revolade",
+    "specialty_id": "oncology_heme",
+    "indication": "1.用於慢性免疫性血小板低下紫瘢症(ITP)對corticosteroid或IVIG治療反應不佳之成人及6歲以上兒童病人。 | 2.用於重型再生不良性貧血(severe AA)對免疫抑制治療反應不佳之成人及2歲以上兒童病人。(112/10/1)",
+    "clinical_tags": {
+      "disease": [
+        "ITP",
+        "AA"
+      ],
+      "phase": [
+        "relapsed",
+        "maintenance"
+      ]
+    },
+    "stage": "",
+    "therapy_line": 2,
+    "prior_auth": true,
+    "conditions": "1.ITP：需對至少一種標準治療（corticosteroid、IVIG或脾臟切除）無效或無法耐受。需經事前審查，每次申請3個月。 | 2.AA：需對抗胸腺細胞球蛋白(ATG)+cyclosporin免疫抑制治療反應不佳。 | 3.每日最大劑量75mg（ITP）；AA：起始150mg，可依反應調整。 | 4.亞洲人起始劑量較低（25mg）。",
+    "nhi_price": 1090.0,
+    "price_unit": "25mg/tab",
+    "dosage_info": "{\"type\": \"oral\", \"dose_fixed\": 50, \"unit\": \"mg\", \"freq\": \"daily\", \"note\": \"50mg/日起始（亞洲人25mg），空腹服用，依血小板數調整\"}",
+    "therapy_line_source": "健保規定"
+  },
+  {
+    "id": 1582,
+    "generic_name": "Romiplostim",
+    "trade_names": "Nplate",
+    "specialty_id": "oncology_heme",
+    "indication": "用於慢性免疫性血小板低下紫瘢症(ITP)對corticosteroid或IVIG治療反應不佳，且不適合接受脾臟切除或已行脾臟切除仍無效之成人病人。(108/4/1)",
+    "clinical_tags": {
+      "disease": [
+        "ITP"
+      ],
+      "phase": [
+        "relapsed",
+        "maintenance"
+      ]
+    },
+    "stage": "",
+    "therapy_line": 2,
+    "prior_auth": true,
+    "conditions": "1.需對至少一種標準治療（corticosteroid、IVIG或脾臟切除）無效或無法耐受，且血小板數<30,000/μL。 | 2.需經事前審查，每次申請3個月。 | 3.每週皮下注射，起始1mcg/kg，依血小板數調整（最大10mcg/kg）。 | 4.不得與eltrombopag同時使用。",
+    "nhi_price": 23982.0,
+    "price_unit": "250mcg/vial",
+    "dosage_info": "{\"type\": \"sc\", \"dose_per_kg\": 1, \"unit\": \"mcg/kg\", \"freq\": \"weekly\", \"note\": \"1mcg/kg/週起始，依血小板數調整（最大10mcg/kg），皮下注射\"}",
+    "therapy_line_source": "健保規定"
+  },
+  {
+    "id": 1583,
+    "generic_name": "Daratumumab",
+    "trade_names": "Darzalex",
+    "specialty_id": "oncology_heme",
+    "indication": "用於多發性骨髓瘤(MM)：1.與lenalidomide及dexamethasone合併作為初診斷MM之第一線治療。 | 2.與bortezomib及dexamethasone（DVd方案）合併用於復發/難治MM之治療。 | 3.與pomalidomide及dexamethasone合併用於先前曾接受至少兩線治療之復發/難治MM。",
+    "clinical_tags": {
+      "disease": [
+        "myeloma"
+      ],
+      "phase": [
+        "initial",
+        "relapsed"
+      ],
+      "cd38": true
+    },
+    "stage": "",
+    "therapy_line": 1,
+    "prior_auth": true,
+    "conditions": "1.需經事前審查核准後使用，每次申請4個療程。 | 2.不得與其他CD38 monoclonal antibody（如isatuximab）合併使用。 | 3.不得與carfilzomib合併使用。 | 4.使用4個療程後，需確認M蛋白未上升才可續用。 | 5.每人終生以12個療程為上限（具體依適應症而定）。",
+    "nhi_price": 67088.0,
+    "price_unit": "400mg/20mL vial",
+    "dosage_info": "{\"type\": \"iv\", \"dose_per_kg\": 16, \"unit\": \"mg/kg\", \"freq\": \"q4w\", \"note\": \"16mg/kg，第1-8週每週，第9-24週每2週，之後每4週（400mg/vial）\"}",
+    "therapy_line_source": "健保規定"
+  },
+  {
+    "id": 1584,
+    "generic_name": "Ixazomib",
+    "trade_names": "Ninlaro",
+    "specialty_id": "oncology_heme",
+    "indication": "與lenalidomide及dexamethasone合併使用於先前已接受至少一種治療之多發性骨髓瘤(MM)成年患者。(110/10/1)",
+    "clinical_tags": {
+      "disease": [
+        "myeloma"
+      ],
+      "phase": [
+        "relapsed"
+      ]
+    },
+    "stage": "",
+    "therapy_line": 2,
+    "prior_auth": true,
+    "conditions": "1.需與lenalidomide及dexamethasone合併使用（IRd方案）。 | 2.需先前曾接受至少一種治療，且確認完成前次治療時或結束治療後60天內發生疾病惡化。 | 3.需經事前審查，每次申請4個療程，每人終生以12個療程為上限。 | 4.每週期第1,8,15日服藥，每28天為一療程。",
+    "nhi_price": 24138.0,
+    "price_unit": "3mg/cap",
+    "dosage_info": "{\"type\": \"oral\", \"dose_fixed\": 4, \"unit\": \"mg\", \"freq\": \"weekly\", \"schedule\": \"21/28\", \"note\": \"4mg，每週期第1,8,15日（每28天一療程）\"}",
+    "therapy_line_source": "健保規定"
+  },
+  {
+    "id": 1585,
+    "generic_name": "Elranatamab",
+    "trade_names": "Elrexfio",
+    "specialty_id": "oncology_heme",
+    "indication": "用於先前曾接受至少四線治療（包括至少一種蛋白酶體抑制劑、至少一種免疫調節劑、及至少一種anti-CD38 antibody）之復發性或難治性多發性骨髓瘤(RRMM)成人病人。",
+    "clinical_tags": {
+      "disease": [
+        "myeloma"
+      ],
+      "phase": [
+        "relapsed"
+      ],
+      "bcma": true
+    },
+    "stage": "",
+    "therapy_line": 3,
+    "prior_auth": true,
+    "conditions": "BCMA×CD3雙特異性抗體。健保給付規定待公告。需逐步增量以降低CRS風險。皮下注射。",
+    "nhi_price": null,
+    "price_unit": "76mg/1.9mL",
+    "dosage_info": "{\"type\": \"sc\", \"dose_fixed\": 76, \"unit\": \"mg\", \"freq\": \"q4w\", \"note\": \"逐步增量後76mg每4週（健保待確認）\"}",
+    "therapy_line_source": "待確認",
+    "data_note": "BCMA×CD3雙特異性抗體，健保給付規定尚未公告，價格待確認。"
+  },
+  {
+    "id": 1586,
+    "generic_name": "Teclistamab",
+    "trade_names": "Tecvayli",
+    "specialty_id": "oncology_heme",
+    "indication": "用於先前曾接受至少四線治療（包括至少一種蛋白酶體抑制劑、至少一種免疫調節劑、及至少一種anti-CD38 antibody）之復發性或難治性多發性骨髓瘤(RRMM)成人病人。",
+    "clinical_tags": {
+      "disease": [
+        "myeloma"
+      ],
+      "phase": [
+        "relapsed"
+      ],
+      "bcma": true
+    },
+    "stage": "",
+    "therapy_line": 3,
+    "prior_auth": true,
+    "conditions": "BCMA×CD3雙特異性抗體。健保給付規定待公告。需逐步增量以降低CRS風險。皮下注射。",
+    "nhi_price": null,
+    "price_unit": "30mg/3mL",
+    "dosage_info": "{\"type\": \"sc\", \"dose_fixed\": 1500, \"unit\": \"mg\", \"freq\": \"q4w\", \"note\": \"逐步增量後1500mg每4週（健保待確認）\"}",
+    "therapy_line_source": "待確認",
+    "data_note": "BCMA×CD3雙特異性抗體，健保給付規定尚未公告，價格待確認。"
+  },
+  {
+    "id": 1587,
+    "generic_name": "Pembrolizumab",
+    "trade_names": "Keytruda",
+    "specialty_id": "oncology_heme",
+    "indication": "1.用於復發或難治性古典型何杰金氏淋巴瘤(cHL)成人病人，先前已接受三線以上治療。(109/4/1) | 2.與標準化療合併作為先前未曾接受治療之第III/IV期cHL成人病人之第一線治療。(114/10/1)",
+    "clinical_tags": {
+      "disease": [
+        "lymphoma"
+      ],
+      "phase": [
+        "initial",
+        "relapsed"
+      ],
+      "pd1": true
+    },
+    "stage": "",
+    "therapy_line": 1,
+    "prior_auth": true,
+    "conditions": "1.三線治療後之cHL：需先前曾接受brentuximab vedotin治療失敗。需經事前審查，每次申請3個療程，每人最多35個療程。 | 2.第一線治療：與AVD方案合併，需具有IV期或III期，IPS 4-7分。 | 3.每次給藥200mg或2mg/kg，每3週一次。",
+    "nhi_price": 96486.0,
+    "price_unit": "100mg/4mL vial",
+    "dosage_info": "{\"type\": \"iv\", \"dose_fixed\": 200, \"unit\": \"mg\", \"freq\": \"q3w\", \"cycles\": 35, \"note\": \"200mg 每3週（100mg/4mL vial），最多35個療程\"}",
+    "therapy_line_source": "健保規定"
+  },
+  {
+    "id": 1588,
+    "generic_name": "Nivolumab",
+    "trade_names": "Opdivo",
+    "specialty_id": "oncology_heme",
+    "indication": "用於復發或難治性古典型何杰金氏淋巴瘤(cHL)，先前已接受自體幹細胞移植(ASCT)及brentuximab vedotin治療失敗之成人病人。(109/4/1)",
+    "clinical_tags": {
+      "disease": [
+        "lymphoma"
+      ],
+      "phase": [
+        "relapsed"
+      ],
+      "pd1": true
+    },
+    "stage": "",
+    "therapy_line": 3,
+    "prior_auth": true,
+    "conditions": "1.需先前曾接受自體幹細胞移植(ASCT)及brentuximab vedotin治療後復發或難治。 | 2.需經事前審查，每次申請3個療程，每人最多24個療程。 | 3.每次給藥240mg，每2週一次，或480mg每4週一次。",
+    "nhi_price": 83600.0,
+    "price_unit": "100mg/10mL vial",
+    "dosage_info": "{\"type\": \"iv\", \"dose_fixed\": 240, \"unit\": \"mg\", \"freq\": \"q2w\", \"cycles\": 24, \"note\": \"240mg 每2週（100mg/10mL vial），最多24個療程\"}",
+    "therapy_line_source": "健保規定"
+  },
+  {
+    "id": 1589,
+    "generic_name": "Siltuximab",
+    "trade_names": "Sylvant",
+    "specialty_id": "oncology_heme",
+    "indication": "用於HIV陰性及HHV-8陰性之多中心型Castleman病(Multicentric Castleman Disease, MCD)成人病人。(112/4/1)",
+    "clinical_tags": {
+      "disease": [
+        "MCD"
+      ],
+      "phase": [
+        "initial",
+        "maintenance"
+      ],
+      "il6": true
+    },
+    "stage": "",
+    "therapy_line": 1,
+    "prior_auth": true,
+    "conditions": "1.需HIV陰性及HHV-8陰性之多中心型Castleman病(MCD)確診病人。 | 2.需經事前審查核准後使用，每次申請以3個療程為限。 | 3.每3週靜脈輸注11mg/kg，持續用藥至疾病進展或無法耐受。 | 4.不得與其他IL-6抑制劑（如tocilizumab）合併使用。",
+    "nhi_price": 72000.0,
+    "price_unit": "400mg/vial",
+    "dosage_info": "{\"type\": \"iv\", \"dose_per_kg\": 11, \"unit\": \"mg/kg\", \"freq\": \"q3w\", \"note\": \"11mg/kg 每3週靜脈輸注（400mg/vial）\"}",
+    "therapy_line_source": "健保規定"
+  },
+  {
+    "id": 1590,
+    "generic_name": "Tirabrutinib",
+    "trade_names": "Velexbru",
+    "specialty_id": "oncology_heme",
+    "indication": "用於復發或難治性原發性中樞神經系統淋巴瘤(PCNSL)成人病人，作為單一療法或合併其他治療。",
+    "clinical_tags": {
+      "disease": [
+        "lymphoma"
+      ],
+      "phase": [
+        "relapsed"
+      ],
+      "btk": true
+    },
+    "stage": "",
+    "therapy_line": 2,
+    "prior_auth": true,
+    "conditions": "BTK抑制劑，已在日本核准用於PCNSL。台灣健保給付規定待確認。每日480mg。",
+    "nhi_price": null,
+    "price_unit": "80mg/tab",
+    "dosage_info": "{\"type\": \"oral\", \"dose_fixed\": 480, \"unit\": \"mg\", \"freq\": \"daily\", \"note\": \"480mg/日（6錠，健保待確認）\"}",
+    "therapy_line_source": "待確認",
+    "data_note": "日本核准藥物，台灣健保給付規定待確認，價格待查詢。"
+  },
+  {
+    "id": 1591,
+    "generic_name": "Pralatrexate",
+    "trade_names": "Folotyn",
+    "specialty_id": "oncology_heme",
+    "indication": "用於復發或難治性周邊T細胞淋巴瘤(PTCL)成人病人。",
+    "clinical_tags": {
+      "disease": [
+        "lymphoma"
+      ],
+      "phase": [
+        "relapsed"
+      ]
+    },
+    "stage": "",
+    "therapy_line": 2,
+    "prior_auth": true,
+    "conditions": "抗葉酸劑。台灣健保給付規定待確認。每週30mg/m2靜脈注射×6週，休息1週為一療程。需補充維生素B12及葉酸。",
+    "nhi_price": null,
+    "price_unit": "20mg/mL vial",
+    "dosage_info": "{\"type\": \"iv\", \"dose_per_bsa\": 30, \"unit\": \"mg/m2\", \"freq\": \"weekly\", \"schedule\": \"6/7\", \"note\": \"30mg/m2 每週×6週，休1週（健保待確認）\"}",
+    "therapy_line_source": "待確認",
+    "data_note": "健保給付規定待確認，價格待查詢。"
   }
 ]
